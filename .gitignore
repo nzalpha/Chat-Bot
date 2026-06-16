@@ -1,0 +1,42 @@
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python virtual environments and caches
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local gateway/runtime databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+state/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local archives and temporary files
+*.zip
+*.tar
+*.tar.gz
+*.tmp
+*.bak
