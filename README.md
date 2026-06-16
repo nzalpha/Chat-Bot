@@ -1,4 +1,4 @@
-# S6 LLM Gateway + MCP Agent
+#  LLM Gateway + MCP Agent
 
 This folder contains a small multi-provider LLM gateway and an MCP-powered agent demo. The gateway gives you one local API for multiple LLM providers, and the agent uses that gateway to decide when to call tools.
 
